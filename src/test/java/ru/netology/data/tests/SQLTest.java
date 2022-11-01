@@ -14,7 +14,7 @@ public class SQLTest {
     @AfterAll
     static void teardown() {
         deleteEverithing();
-    }
+    } //хотя без него все работает
 
     @Test
     void shouldLoginwithValidData() {
